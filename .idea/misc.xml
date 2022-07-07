@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/mindd/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_create_alert.xml" value="0.25" />
         <entry key="..\:/Users/mindd/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/mindd/AndroidStudioProjects/MyApplication/app/src/main/res/layout/custum_card.xml" value="0.2984381595609962" />
+        <entry key="..\:/Users/mindd/AndroidStudioProjects/MyApplication/app/src/main/res/layout/custum_card.xml" value="0.1" />
       </map>
     </option>
   </component>

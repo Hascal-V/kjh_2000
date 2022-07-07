@@ -7,11 +7,12 @@
     app:cardCornerRadius="8dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/card_cl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/textView9"
+            android:id="@+id/timeAlert"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
@@ -22,57 +23,57 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Switch
-            android:id="@+id/switch3"
+            android:id="@+id/switchAlert"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:text=""
-            app:layout_constraintBottom_toBottomOf="@+id/textView9"
+            app:layout_constraintBottom_toBottomOf="@+id/timeAlert"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.9"
-            app:layout_constraintStart_toEndOf="@+id/textView9"
-            app:layout_constraintTop_toTopOf="@+id/textView9" />
+            app:layout_constraintStart_toEndOf="@+id/timeAlert"
+            app:layout_constraintTop_toTopOf="@+id/timeAlert" />
 
         <TextView
-            android:id="@+id/textView10"
+            android:id="@+id/timeAlert2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="6dp"
             android:text="오전"
             android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="@+id/textView9"
-            app:layout_constraintStart_toEndOf="@+id/textView9" />
+            app:layout_constraintBottom_toBottomOf="@+id/timeAlert"
+            app:layout_constraintStart_toEndOf="@+id/timeAlert" />
 
         <TextView
             android:layout_marginBottom="16dp"
             app:layout_constraintVertical_bias="0.0"
-            android:id="@+id/textView11"
+            android:id="@+id/dateAlert"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:text="일요일"
             android:textSize="15sp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/textView9"
-            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+            app:layout_constraintEnd_toEndOf="@+id/timeAlert"
+            app:layout_constraintTop_toBottomOf="@+id/timeAlert" />
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/vbAlert"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
-            app:layout_constraintBottom_toBottomOf="@+id/textView11"
-            app:layout_constraintStart_toStartOf="@+id/textView9"
-            app:layout_constraintTop_toTopOf="@+id/textView11"
+            app:layout_constraintBottom_toBottomOf="@+id/dateAlert"
+            app:layout_constraintStart_toStartOf="@+id/timeAlert"
+            app:layout_constraintTop_toTopOf="@+id/dateAlert"
             app:srcCompat="@drawable/ic_custum_al" />
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/multiAlert"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintBottom_toBottomOf="@+id/textView11"
+            app:layout_constraintBottom_toBottomOf="@+id/dateAlert"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.9"
-            app:layout_constraintStart_toEndOf="@+id/textView11"
-            app:layout_constraintTop_toTopOf="@+id/textView11"
+            app:layout_constraintStart_toEndOf="@+id/dateAlert"
+            app:layout_constraintTop_toTopOf="@+id/dateAlert"
             app:srcCompat="@drawable/ic_custum_more_vert" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
